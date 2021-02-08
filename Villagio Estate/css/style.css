@@ -1,0 +1,96 @@
+.main{
+    width: 1000px;
+}
+.control-container{
+    display: flex;
+    width: 1000px;
+}
+.button{
+    border-radius: 25%;
+    background-color: lightgray;
+    margin-left: 600px;
+    padding: 10px;
+    height: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    
+}
+.add-button{
+    margin-left: 880px;
+}
+.divider{
+    border-bottom:1px lightgray solid;
+    width: 1000px;   
+}
+.swiper-container-card{
+    width: 950px;
+    height: 400px;
+}
+.swiper-container-image{
+    width: 300px;
+    height: 200px;
+}
+.card{
+    padding: 5px;
+    border: 1px lightgray solid;
+    height: 380px;
+}
+.card-price{
+    color: darkred;
+    margin-left: 3px;
+}
+.card-price-input{
+    color: darkred;
+    margin-top: 20px;
+    height: 30px;
+}
+.card-name{
+    margin-left: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-options{
+    margin-left: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    color: lightgray;
+}
+.card-footer{
+    display: flex;
+    margin-top: 30px;
+}
+.card-footer-author-container{
+    display: flex;
+}
+.card-footer-author-avatar{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/author.jpg);
+}
+.card-footer-author{
+    margin-left: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding-top: 5%;
+}
+.card-delete{
+    height: 24px;
+    width: 24px;
+    margin-left: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/delete.png);
+    cursor: pointer;    
+}
+.card-favourite{
+    height: 24px;
+    width: 24px;
+    margin-left: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/favourite.png);
+    cursor: pointer;
+}
